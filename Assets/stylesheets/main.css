@@ -1,0 +1,326 @@
+*,
+*:before,
+*:after {
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+    color: #754b23;
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+.cursive {
+    font-family: 'Monotype Corsiva', 'Apple Chancery', 'ITC Zapf Chancery', 'URW Chancery L', cursive;
+    font-weight: 200;
+}
+
+/*
+    ==================================
+    ==            Header            ==
+    ==================================
+*/
+
+.main-nav {
+    list-style: none;
+    text-align: right;
+}
+
+.main-nav li {
+    display: inline-block;
+    
+}
+
+.main-nav li a {
+    margin-right: 40px;
+    color: #754b23;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.main-logo {
+    background-image: url("../images/logo.png");
+    height: 194px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.logo-text {
+    font-size: 25px;
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 15px
+}
+
+.brown-bar {
+    background-color: #754b23;
+    height: 24px;
+    margin: 0;
+}
+
+/*
+    ==================================
+    ==           Common             ==
+    ==================================
+*/
+
+.main-body {
+    background-repeat: repeat-y;
+    background-position: right;
+    margin-bottom: 45px;
+    position: relative;
+    text-align: justify;
+    vertical-align: top;
+}
+
+.main-text {
+    display: inline-block;
+    width: 66.66%;
+}
+
+.main-body h1 {
+    margin: 50px 35px; 
+}
+
+.main-body p {
+    margin: 10px 35px;
+}
+
+
+
+.bottom-img {
+    margin-bottom: 50px;
+}
+
+
+/*
+    ==================================
+    ==             Home             ==
+    ==================================
+*/
+
+.home {
+    background-image: url("../images/strips2.png");
+}
+
+#dots {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+}
+
+#pic-text {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+/*
+    ==================================
+    ==          About Us            ==
+    ==================================
+*/
+
+.about, .services{
+    background-image: url("../images/strips1.png");
+}
+
+#about-img {
+    position: absolute;
+    top: 165px;
+    right: 220px;
+}
+
+/*
+    ==================================
+    ==          Services            ==
+    ==================================
+*/
+
+/*
+    ==================================
+    ==           Contact            ==
+    ==================================
+*/
+
+.contact-text {
+    position: relative;
+    display: inline-block;
+    width: 50%;
+    vertical-align: top;
+}
+
+.contact-text a {
+    color: #06b4af;
+    text-decoration: none;
+}
+
+.contact-text img {
+    position: absolute;
+    right: 200px;
+}
+
+.form-container {
+    position: relative;
+    display: inline-block;
+    width: 31%;
+    vertical-align: top;
+    margin-left: 5%;
+}
+
+.form-container h1 {
+    margin-left: 0;
+}
+
+.contact-form {
+    border: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.contact-form input, 
+.contact-form textarea {
+    font-family: inherit;
+    color: #754b23;
+    border: none;
+    #margin-left: 20px;
+    margin-bottom: 8px;
+    padding-left: 6px;
+    width: 100%;
+    height: 35px;
+}
+
+.contact-form textarea {
+    height: 115px;
+    
+}
+
+.orange {
+    background-color: #e86b35;
+}
+
+.yellow {
+    background-color: #f6b53e;
+}
+
+.blue {
+    background-color: #06b4af;
+}
+
+::-webkit-input-placeholder { /* WebKit browsers */
+    color:    #754b23;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #754b23;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #754b23;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+   color:    #754b23;
+}
+
+.btn {
+    border: none;
+    color: #fff;
+    height: 35px;
+    padding: 0;
+    width: 50%;
+    #position: absolute;
+    #right: 55px;
+    float: right;
+}
+
+.work-schedule {
+    position: relative;
+    margin: 65px 0 35px 50px;
+    margin-left: 35px;
+    margin-bottom: 50px;
+}
+
+.days, .time {
+    display: inline-block;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.days li, .time li {
+    background-color: #f6ede6;
+    height: 35px;
+    text-align: center;
+    padding-top: 7px;
+    margin-bottom: 5px;
+}
+
+.days li {
+    width: 152px;
+    margin-right: 0;
+    margin-left: 8px;
+}
+
+.time li {
+    width: 218px;
+    margin-left: 5px;
+}
+
+.work-schedule img {
+    position: absolute;
+    right: 250px;
+    bottom: 80px;
+}
+
+/*
+    ==================================
+    ==            Footer            ==
+    ==================================
+*/
+
+.main-footer {
+    background-color: #06b4af;
+    color: #fff;
+    height: 80px;
+    position: relative;
+}
+
+#footer-dots {
+    position: absolute;
+    top: 18px;
+    left: 40px;
+}
+
+#phone-number {
+    position: absolute;
+    top: 30px;
+    right: 80px;
+}
+
+#copyright {
+    position: absolute;
+    left: 317px;
+    bottom: 5px;
+}
+
+
+
+
+@media all and (max-width: 1000px) and (min-width: 700px){
+    .container {
+        width: 700px;
+    }
+    
+    div {
+        display: block;
+    }
+}
